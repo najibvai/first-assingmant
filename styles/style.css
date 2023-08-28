@@ -1,0 +1,98 @@
+/* Open Sans font add*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*--------------------------- Header + Banner Section Style----------------------*/
+.header {
+    /* width: 1920px;
+    height: 850px; */
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.banner {
+    display: flex;
+    padding: 50px 240px 0px 240px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 97PX;
+}
+
+.banner-img {
+    width: 635px;
+    height: 800px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    width: 800px;
+    margin-bottom: 32px;
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 32px;
+    width: 634px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    padding: 20px 43px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*--------------------------------Main Section Style----------------------------*/
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* --------------------First Section Style---------------------- */
+.first-section {
+    /* padding: 178px 240px 0px 240px; */
+}
+
+.first-section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.first-section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 48px;
+    /* width: 594px; */
+    /* padding: 0px 663px 0px 663px; */
+}
+
+.about-first-section {
+    display: flex;
+    gap: 24px;
+    /* padding: 358px 240px 0px 240px; */
+}
+
+.first-section-img {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 110px 78px 0px 76px;
+}
+
+.first-section-img h4 {
+    text-align: center;
+    margin-top: 32px;
+}
