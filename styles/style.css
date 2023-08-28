@@ -52,16 +52,13 @@ body {
 
 /*--------------------------------Main Section Style----------------------------*/
 main {
-    max-width: 1140px;
+    max-width: 1920PX;
     margin: 0 auto;
 }
 
 /* --------------------First Section Style---------------------- */
-.first-section {
-    /* padding: 178px 240px 0px 240px; */
-}
 
-.first-section-title {
+.section-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -69,30 +66,52 @@ main {
     margin-bottom: 24px;
 }
 
-.first-section-description {
+.section-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
-    font-weight: 400;
     margin-top: 0px;
     margin-bottom: 48px;
     /* width: 594px; */
-    /* padding: 0px 663px 0px 663px; */
 }
 
-.about-first-section {
+.first-section-container {
     display: flex;
+    /* margin-left: 240PX; */
+    justify-content: center;
     gap: 24px;
-    /* padding: 358px 240px 0px 240px; */
 }
 
-.first-section-img {
+.pink-section-img {
     border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
+    background: #A7216226;
     padding: 110px 78px 0px 76px;
+    width: 310px;
+    height: 428px;
 }
 
-.first-section-img h4 {
+.sky-section-img {
+    border-radius: 300px 300px 0px 0px;
+    background: #0597A026;
+    padding: 110px 78px 0px 76px;
+    width: 310px;
+    height: 428px;
+}
+
+.gree-section-img {
+    border-radius: 300px 300px 0px 0px;
+    background: #477D1126;
+    padding: 110px 78px 0px 76px;
+    width: 310px;
+    height: 428px;
+}
+
+.sub-title {
+    color: #272727;
+    color: #272727;
     text-align: center;
-    margin-top: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
