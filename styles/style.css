@@ -206,19 +206,19 @@ main {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    top: 122px;
+    top: 70px;
     left: 510px;
     bottom: 279px;
 }
 
 .get-deals-section-description {
     position: absolute;
-    color: rgba(39, 39, 39, 0.60);
+    color: #27272799;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    top: 200px;
+    top: 155px;
     left: 600px;
 }
 
@@ -226,7 +226,7 @@ main {
     position: absolute;
     display: flex;
     gap: 16px;
-    top: 284px;
+    top: 262px;
     left: 250px;
 }
 
@@ -241,12 +241,14 @@ main {
 }
 
 /*--------------------------------Footer section Style------------------------------------*/
-.footer-section {
+.footer{
     background-color: #111010;
-    width: 1922px;
-    height: 200px;
     padding: 128px 0px;
     margin-top: 128px;
+}
+
+.footer-section {
+    justify-content: center;
 }
 
 
@@ -285,4 +287,5 @@ main {
     font-size: 16px;
     font-weight: 400;
     margin-top: 0px;
+    /* margin-bottom: 128px; */
 }
