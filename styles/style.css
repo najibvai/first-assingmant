@@ -49,6 +49,10 @@ body {
     font-size: 20px;
     font-weight: 700;
 }
+.btn-primary:hover{
+    background-color: blue;
+    color: yellow;
+}
 
 /*--------------------------------Main Section Style----------------------------*/
 main {
@@ -116,7 +120,7 @@ main {
     text-decoration-line: underline;
 }
 
-/* --------------------Second Section Style---------------------------- */
+/* --------------------Photo Section Style---------------------------- */
 .second-section-container {
     padding: 87px 175px;
     display: flex;
@@ -240,6 +244,37 @@ main {
     color: #27272799;
 }
 
+/* Bonus Part Style */
+.bonus-title{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: 800;
+    color: #E55473;
+}
+.bonus-color-title{
+    color: #111010;
+}
+.bonus-container{
+    background-color: #f1d329;
+    margin: 0px 210px 0px 240px;
+    border-radius: 20px;
+    padding: 87px 175px;
+    text-align: center;
+}
+.bonus-part-title{
+    color: #FFF;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.bonus-part-description{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.bonus-btn{
+    margin-top: 0px;
+}
 /*--------------------------------Footer section Style------------------------------------*/
 .footer{
     background-color: #111010;
