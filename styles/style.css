@@ -52,7 +52,7 @@ body {
 
 /*--------------------------------Main Section Style----------------------------*/
 main {
-    max-width: 1440PX;
+    max-width: 1920px;
     margin: 0 auto;
 }
 
@@ -109,7 +109,6 @@ main {
 
 .sub-title {
     color: #272727;
-    color: #272727;
     text-align: center;
     font-size: 24px;
     font-weight: 700;
@@ -124,13 +123,33 @@ main {
     gap: 100px;
     border-radius: 8px;
     background: #2727270D;
-    margin-top: 128px;
-    justify-content: center;
+    margin: 128px 225px;
+    justify-content: space-between;
     align-items: center;
+    margin-bottom: 0px;
 }
 
-.second-section-description {
-    color: #272727CC;
+/*---------------------------- Hot-Deal Section Style----------------------------- */
+
+.hot-deal-section {
+    display: flex;
+    border-radius: 8px;
+    background-color: #E554730D;
+    padding: 230px 429px 100px 395px;
+    align-items: center;
+    gap: 186px;
+    margin-top: 128px;
+}
+
+.hot-deal-section-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+}
+
+.hot-deal-section-description {
+    color:#27272799;
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
+    font-weight: 400;
 }
