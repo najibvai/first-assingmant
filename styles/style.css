@@ -259,11 +259,11 @@ main {
     background-color: #f1d329;
     margin: 0px 210px 0px 240px;
     border-radius: 20px;
-    padding: 87px 175px;
+    padding: 87px 180px;
     text-align: center;
 }
 .bonus-part-title{
-    color: #FFF;
+    color: #ffffff;
     font-size: 30px;
     margin-bottom: 10px;
 }
@@ -271,10 +271,21 @@ main {
     font-size: 20px;
     margin-top: 0px;
     margin-bottom: 40px;
+    color: rgb(0, 0, 0);
 }
 .bonus-btn{
-    margin-top: 0px;
+        border-radius: 8px;
+        background: #E55473;
+        border: 0;
+        padding: 20px 43px;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 700;
 }
+    .bonus-btn:hover{
+        background-color: rgb(0, 230, 88);
+        color: rgb(0, 0, 0);
+    }
 /*--------------------------------Footer section Style------------------------------------*/
 .footer{
     background-color: #111010;
